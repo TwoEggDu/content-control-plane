@@ -1,4 +1,4 @@
-﻿# ADR 目录
+# ADR 目录
 
 这个目录用于记录这个项目中已经做出的关键架构和流程决策。
 
@@ -39,6 +39,7 @@ ADR 不应该拿来记录：
 ## 当前 ADR 列表
 
 - [0001-document-driven-workflow.md](0001-document-driven-workflow.md)：采用文档驱动的项目推进方式
+- [0002-web-framework-gin.md](0002-web-framework-gin.md)：第一版 Web 框架使用 Gin
 
 ## 推荐阅读顺序
 

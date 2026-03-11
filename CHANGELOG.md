@@ -1,4 +1,4 @@
-﻿# Changelog
+# Changelog
 
 All notable changes to this project will be documented in this file.
 
@@ -10,3 +10,4 @@ All notable changes to this project will be documented in this file.
 - 增加 `roadmap`、`backlog`、`data_model`、`testing_strategy` 和 `runbook` 入口文档。
 - 增加 `adr/README.md` 与 `ADR-0001`，固定文档驱动的推进方式。
 - 增加 `api/README.md`，作为后续接口契约入口。
+- 固定第一版 Web 框架为 `Gin`，并补充对应 ADR。

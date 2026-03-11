@@ -1,4 +1,4 @@
-﻿# Backlog
+# Backlog
 
 ## 文档目的
 
@@ -35,7 +35,7 @@
 #### B-004 搭 Go 项目骨架
 
 - 状态：`PLANNED`
-- 说明：建立 `cmd/api`、`internal`、`migrations` 等基础目录和启动方式。
+- 说明：建立 `cmd/api`、`internal`、`migrations` 等基础目录，并以 `Gin` 搭起第一版 API 服务骨架。
 
 #### B-005 定义样例导入契约
 
