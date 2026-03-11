@@ -2,6 +2,39 @@
 
 面向游戏项目的内容控制平台，覆盖资源质量门禁、错误资源展示、资源更新控制和发布运维支撑。
 
+## 文档入口
+
+- 文档总览：[docs/README.md](docs/README.md)
+- 项目背景：[docs/project_context.md](docs/project_context.md)
+- 产品意图：[docs/product_intent.md](docs/product_intent.md)
+- 路线图：[docs/roadmap.md](docs/roadmap.md)
+- 工作项池：[docs/backlog.md](docs/backlog.md)
+- 系统设计入口：[docs/sdd/README.md](docs/sdd/README.md)
+- 架构决策入口：[docs/adr/README.md](docs/adr/README.md)
+- 测试策略：[docs/testing_strategy.md](docs/testing_strategy.md)
+- Runbook 入口：[docs/runbook/README.md](docs/runbook/README.md)
+- 当前待你决策：[docs/owner_decisions/current.md](docs/owner_decisions/current.md)
+- 变更历史：[CHANGELOG.md](CHANGELOG.md)
+
+## 当前开发流程
+
+当前仓库采用“文档先行 + 决策集中上提 + 小闭环实现”的推进方式：
+
+1. 先固定 `project_context` 和 `product_intent`
+2. 再用 `roadmap`、`backlog` 和 `owner_decisions` 固定推进顺序与待拍板事项
+3. 再进入 `SDD`、`Data Model`、`API` 和 `ADR`
+4. 最后按小闭环实现、测试和运行
+
+当前默认推荐的第一实现闭环是：
+
+- 导入扫描结果
+- 查询扫描任务
+- 查询问题列表
+- 查看问题详情
+- 补充问题状态流转
+
+当前开放决策见：[docs/owner_decisions/current.md](docs/owner_decisions/current.md)
+
 ## 项目定位
 
 这个项目不是单纯的“错误资源展示页”，而是一个内容控制面：
@@ -368,3 +401,7 @@ erDiagram
 - 最合适的技术架构是 Go 模块化单体，不是微服务
 - 第一阶段重点是可见化、可追踪、可控制，不是分发链路
 - 真正值钱的点不在语言本身，而在幂等导入、问题指纹、状态流转、趋势统计和审计链路设计
+
+
+
+
