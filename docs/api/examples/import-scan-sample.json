@@ -1,0 +1,58 @@
+{
+  "project_code": "twoegg-mobile",
+  "project_name": "TwoEgg Mobile",
+  "source_type": "CI",
+  "task_no": "ci-20260311-001",
+  "branch_name": "main",
+  "commit_sha": "7d7f5afc",
+  "scanner_version": "asset-checker@1.4.2",
+  "triggered_by": "buildkite",
+  "started_at": "2026-03-11T09:20:00Z",
+  "finished_at": "2026-03-11T09:21:15Z",
+  "attachments": [
+    {
+      "file_type": "REPORT",
+      "file_name": "scan-report.json",
+      "storage_key": "reports/twoegg-mobile/2026-03-11/scan-report.json",
+      "content_hash": "sha256:report-001",
+      "file_size": 12540
+    },
+    {
+      "file_type": "LOG",
+      "file_name": "scan.log",
+      "storage_key": "reports/twoegg-mobile/2026-03-11/scan.log",
+      "content_hash": "sha256:log-001",
+      "file_size": 4321
+    }
+  ],
+  "issues": [
+    {
+      "rule_code": "TEXTURE_MAX_SIZE",
+      "severity": "HIGH",
+      "message": "Texture size exceeds project baseline",
+      "resource_guid": "0f7f5d4d6a554f3cbef1c9b111111111",
+      "resource_path": "Assets/Art/Hero/hero_diffuse.png",
+      "resource_name": "hero_diffuse.png",
+      "resource_type": "Texture2D",
+      "module_name": "Hero",
+      "owner_name": "art-team",
+      "location_key": "import_settings.max_size",
+      "current_value": "4096",
+      "expected_value": "2048"
+    },
+    {
+      "rule_code": "MATERIAL_MISSING_SHADER",
+      "severity": "MEDIUM",
+      "message": "Material shader reference is missing",
+      "resource_guid": "e21f2458bf924412ad9b888822222222",
+      "resource_path": "Assets/Art/Hero/hero_weapon.mat",
+      "resource_name": "hero_weapon.mat",
+      "resource_type": "Material",
+      "module_name": "Hero",
+      "owner_name": "art-team",
+      "location_key": "shader",
+      "current_value": "",
+      "expected_value": "Project/Character/Weapon"
+    }
+  ]
+}
