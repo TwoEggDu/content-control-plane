@@ -15,3 +15,4 @@ All notable changes to this project will be documented in this file.
 - 冻结第一版数据模型和 MVP API 契约，并补充导入样例 JSON。
 - 建立 `Gin` API 服务骨架、内存仓储和最小闭环测试。
 - 增加 `migrations/README.md` 和 `.gitignore`，为后续持久化实现留出入口。
+- 增加 `owner_decisions/watchlist.md`，单独记录 owner 当前最该留意的事项。

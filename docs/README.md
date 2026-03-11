@@ -1,4 +1,4 @@
-﻿# Docs Map
+# Docs Map
 
 这个目录存放这个应用从“为什么做”到“怎么做”、再到“怎么交付和运行”的完整文档体系。
 
@@ -19,6 +19,7 @@
 - [roadmap.md](roadmap.md)：阶段目标和推进顺序
 - [backlog.md](backlog.md)：当前工作项池和优先级
 - [owner_decisions/current.md](owner_decisions/current.md)：当前待你决定的问题
+- [owner_decisions/watchlist.md](owner_decisions/watchlist.md)：作为 owner 当前最该留意的事项
 
 ### 3. 设计与契约
 
@@ -46,11 +47,12 @@
 2. [product_intent.md](product_intent.md)
 3. [autonomous_workflow.md](autonomous_workflow.md)
 4. [owner_decisions/current.md](owner_decisions/current.md)
-5. [roadmap.md](roadmap.md)
-6. [sdd/README.md](sdd/README.md)
-7. [adr/README.md](adr/README.md)
-8. [testing_strategy.md](testing_strategy.md)
-9. [runbook/README.md](runbook/README.md)
+5. [owner_decisions/watchlist.md](owner_decisions/watchlist.md)
+6. [roadmap.md](roadmap.md)
+7. [sdd/README.md](sdd/README.md)
+8. [adr/README.md](adr/README.md)
+9. [testing_strategy.md](testing_strategy.md)
+10. [runbook/README.md](runbook/README.md)
 
 ## 当前项目阶段
 
